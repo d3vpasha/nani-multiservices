@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nani-multiservices.fr/sitemap.xml

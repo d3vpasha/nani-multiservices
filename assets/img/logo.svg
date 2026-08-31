@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 80" role="img" aria-label="NANI Multiservices">
+  <title>NANI MULTISERVICES</title>
+  <defs>
+    <linearGradient id="nmBrand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B3C5D"/>
+      <stop offset="1" stop-color="#14607F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Monogramme NM : carre arrondi + reflet diagonal -->
+  <g transform="translate(2 10)">
+    <rect width="60" height="60" rx="14" fill="url(#nmBrand)"/>
+    <path d="M60 0 H42 L10 60 H28 Z" fill="#ffffff" opacity="0.10"/>
+    <g fill="none" stroke="#ffffff" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="12,41 12,19 25,41 25,19"/>
+      <polyline points="33,41 33,19 41,31 49,19 49,41"/>
+    </g>
+    <rect x="12" y="48" width="37" height="3.4" rx="1.7" fill="#2E9E8F"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <text x="76" y="45" font-size="31" font-weight="700" fill="#0B3C5D" letter-spacing="0.5">NANI</text>
+    <text x="78" y="63" font-size="11" font-weight="600" fill="#2E9E8F" letter-spacing="3.35">MULTISERVICES</text>
+  </g>
+</svg>
