@@ -16,6 +16,7 @@ assets/img/logo.svg           logo horizontal couleur (fond clair)
 assets/img/logo-mono-blanc.svg logo monochrome blanc (fond sombre, footer)
 assets/img/favicon.svg        monogramme seul, utilisé comme favicon
 robots.txt / sitemap.xml      référencement
+source-nani-multiservices.jpg photo source, non référencée par le site
 ```
 
 Le sprite d'icônes est inline dans `index.html` : un `<use href="fichier.svg#id">` externe
@@ -28,20 +29,26 @@ python3 -m http.server 8000
 # puis http://localhost:8000
 ```
 
-## Deploiement
+## Production
 
-Copier le contenu du dépôt à la racine de l'hébergement. Fonctionne tel quel sur
-GitHub Pages, Netlify, Cloudflare Pages, ou tout hébergement mutualisé.
+https://nani-multiservices.vercel.app/
 
-## À compléter avant mise en ligne
+## TODO restants
 
-- Numéro de téléphone : placeholder `00 00 00 00 00` dans la section Contact de `index.html`
-  (recherche `TODO`), à remplacer dans le libellé et dans le `href="tel:"`.
-- Nom de domaine : `https://nani-multiservices.fr/` est utilisé dans la balise canonical,
-  les metas Open Graph, le JSON-LD, `robots.txt` et `sitemap.xml`. Remplacer par le domaine réel.
+- [ ] **Téléphone** : placeholder `00 00 00 00 00` dans la section Contact de `index.html`
+      (recherche `TODO`), à remplacer dans le libellé et dans le `href="tel:"`.
+- [ ] **URL absolues** : `https://nani-multiservices.fr/` est utilisé dans la balise canonical,
+      les metas Open Graph, le JSON-LD, `robots.txt` et `sitemap.xml`. À remplacer par
+      `https://nani-multiservices.vercel.app/`, ou par le domaine réel une fois acheté.
 
 ## Sources des données légales
 
 Toutes les informations du footer et du JSON-LD proviennent de l'Annuaire des Entreprises
 (data.gouv.fr), SIREN 807837430 :
 https://annuaire-entreprises.data.gouv.fr/entreprise/nani-multiservices-807837430
+
+## Versions
+
+| Version | Date | Direction visuelle |
+|---|---|---|
+| v1 | 2026-08-31 | Corporate propreté, bleu marine et vert d'eau, hero typographique « Des locaux impeccables, sans y penser. », monogramme + wordmark |
